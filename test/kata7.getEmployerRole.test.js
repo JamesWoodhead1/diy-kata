@@ -2,7 +2,9 @@ const { getEmployerRole } = require("../src");
 
 describe("getEmployerRole", () => {
   it("returns the employee's role in the company", () => {});
-  expect(getEmployerRole("Javid", [{
+  expect(
+    getEmployerRole("Javid", [
+      {
         name: "Satti",
         role: "Developer"
       },
